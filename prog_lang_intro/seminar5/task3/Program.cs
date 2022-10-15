@@ -16,7 +16,8 @@ void printArr(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        System.Console.Write($"{arr[i]} ");
+        System.Console.Write($"{arr[i]}\t");
+        //System.Console.WriteLine(arr[i]);
     }
     System.Console.WriteLine();
 }
@@ -48,7 +49,5 @@ int min(int[] arr)
 }
 
 int[] arr = fillArr(5, 1, 100);
-int maxVal = max(arr);
-int minVal = min(arr);
 printArr(arr);
-System.Console.WriteLine(maxVal - minVal);
+System.Console.WriteLine(max(arr) - min(arr));

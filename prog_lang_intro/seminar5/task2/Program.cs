@@ -27,7 +27,7 @@ void printArr(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        System.Console.Write($"{arr[i]} ");
+        System.Console.Write($"{arr[i]}\t");
     }
     System.Console.WriteLine();
 }

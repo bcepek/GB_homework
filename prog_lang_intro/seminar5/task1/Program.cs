@@ -29,12 +29,12 @@ void printArr(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        System.Console.Write($"{arr[i]} ");
+        System.Console.Write($"{arr[i]}\t");
     }
     System.Console.WriteLine();
 }
 
-int[] arr = fillArr(5, -1000, 1001);
+int[] arr = fillArr(5, 100, 1001);
 int evens = evenCounter(arr);
 printArr(arr);
 System.Console.WriteLine(evens);
