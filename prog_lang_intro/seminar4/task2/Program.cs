@@ -15,7 +15,7 @@ int digitCounter(int num)
 
 int digitSum(int num)
 {
-    int digitNum = digitCounter(num);
+    int digitNum = digitCounter(num); 
     int result = 0;
     for (int i = 0; i < digitNum; i++)
     {
